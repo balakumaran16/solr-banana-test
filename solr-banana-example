@@ -1,0 +1,35 @@
+Imp Links : http://hortonworks.com/blog/install-hadoop-windows-hortonworks-data-platform-2-0/
+Cmd prompt links : http://ss64.com/nt/
+Common Drive : \\113.128.163.62\d$\Downloads
+
+
+
+Hadoop User : runas /user:hadoop cmd
+Solr server on port 8983
+Solr Core Name : solrcore
+
+post --> example/exampledocs/post.jar -h
+
+solr.cmd -e cloud
+
+java -Dc=core0 -jar post.jar solr-word.pdf -Durl http://localhost:8984/solr/core0/update
+java -Dc=core0 -Durl=http://localhost:8983/solr/newcoll/update -jar post.jar New_Cust.xml
+java -Dc=core0 -Durl=http://localhost:8983/solr/sampcore/update -jar post.jar *.xml
+Banana GIT : https://github.com/LucidWorks/banana
+
+Solr query = http://localhost:8983/solr/solrcore/select?q=status
+
+http://localhost:8984/solr/#/core0_shard1_replica1/query
+http://localhost:8984/solr/banana/src/index.html#/dashboard
+
+Solr Cloud
+-----------
+Starting up Solr on port 8984 using command:
+C:\solr-5.3.1\bin\solr.cmd start -cloud -p 8984 -s "C:\solr-5.3.1\example\cloud\node1\solr"
+
+Starting up Solr on port 7574 using command:
+C:\solr-5.3.1\bin\solr.cmd start -cloud -p 7574 -s "C:\solr-5.3.1\example\cloud\node2\solr" -z localhost:9984
+
+Solr cloud collection : core0
+
+SolrCloud example running, please visit: http://localhost:8984/solr
