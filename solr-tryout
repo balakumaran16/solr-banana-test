@@ -1,0 +1,927 @@
+Microsoft Windows [Version 6.3.9600]
+(c) 2013 Microsoft Corporation. All rights reserved.
+
+C:\Windows\system32>cd C:\hdp\hbase-1.1.1.2.3.0.0-2557\bin
+
+C:\hdp\hbase-1.1.1.2.3.0.0-2557\bin>hbase shell
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/C:/hdp/hbase-1.1.1.2.3.0.0-2557/lib/slf4j-log4j12-1.7.10.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/C:/hdp/hadoop-2.7.1.2.3.0.0-2557/share/hadoop/common/lib/slf4j-log4j12-1.7.10.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.slf4j.impl.Log4jLoggerFactory]
+HBase Shell; enter 'help<RETURN>' for list of supported commands.
+Type "exit<RETURN>" to leave the HBase Shell
+Version 1.1.1.2.3.0.0-2557, r6a55f21850cfccf19fa651b9e2c74c7f99bbd4f9, Tue Jul 14 06:42:45 PDT 2015
+
+hbase(main):001:0>
+hbase(main):002:0* create 'CJ','col'
+0 row(s) in 5.9030 seconds
+
+=> Hbase::Table - CJ
+hbase(main):003:0> put 'CJ','a1','col:name','Tom'
+0 row(s) in 0.3870 seconds
+
+hbase(main):004:0> put 'CJ','a1','col:channel','IVR'
+0 row(s) in 0.0120 seconds
+
+hbase(main):005:0> put 'CJ','a1','col:dt','19-09-2015 16:07:45'
+0 row(s) in 0.0260 seconds
+
+hbase(main):006:0> scan 'CJ'
+ROW                              COLUMN+CELL
+ a1                              column=col:channel, timestamp=1443606161303, value=IVR
+ a1                              column=col:dt, timestamp=1443606186351, value=19-09-2015 16:07:45
+ a1                              column=col:name, timestamp=1443606147282, value=Tom
+1 row(s) in 0.1390 seconds
+
+hbase(main):007:0> exit
+
+C:\hdp\hbase-1.1.1.2.3.0.0-2557\bin>
+C:\hdp\hbase-1.1.1.2.3.0.0-2557\bin>
+C:\hdp\hbase-1.1.1.2.3.0.0-2557\bin>cd c:
+C:\hdp\hbase-1.1.1.2.3.0.0-2557\bin
+
+C:\hdp\hbase-1.1.1.2.3.0.0-2557\bin>cd c:/
+
+c:\>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 9403-5A4D
+
+ Directory of c:\
+
+09/29/2015  05:42 AM    <DIR>          cygwin64
+09/29/2015  04:02 AM    <DIR>          hadoop
+09/29/2015  04:51 AM    <DIR>          hdp
+09/29/2015  04:51 AM    <DIR>          hdpdata
+09/29/2015  04:51 AM    <DIR>          hdpdatadn
+09/29/2015  04:51 AM    <DIR>          hdpdatann
+09/29/2015  04:33 AM    <DIR>          Java
+08/22/2013  08:52 AM    <DIR>          PerfLogs
+09/30/2015  12:06 AM    <DIR>          Program Files
+09/29/2015  12:20 AM    <DIR>          Program Files (x86)
+09/29/2015  02:38 AM    <DIR>          Python27
+09/29/2015  05:38 AM    <DIR>          solr-5.3.1
+08/10/2015  12:58 PM    <DIR>          temp
+09/29/2015  04:51 AM    <DIR>          Users
+09/25/2015  05:34 AM    <DIR>          Windows
+               0 File(s)              0 bytes
+              15 Dir(s)  34,228,994,048 bytes free
+
+c:\>cd solr-5.3.1
+
+c:\solr-5.3.1>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 9403-5A4D
+
+ Directory of c:\solr-5.3.1
+
+09/29/2015  05:38 AM    <DIR>          .
+09/29/2015  05:38 AM    <DIR>          ..
+09/29/2015  09:06 AM    <DIR>          bin
+09/29/2015  05:34 AM           514,991 CHANGES.txt
+09/29/2015  05:37 AM    <DIR>          contrib
+09/29/2015  05:37 AM    <DIR>          dist
+09/29/2015  05:38 AM    <DIR>          docs
+09/29/2015  08:55 AM    <DIR>          example
+09/29/2015  05:34 AM            12,872 LICENSE.txt
+09/29/2015  05:38 AM    <DIR>          licenses
+09/29/2015  05:34 AM           578,959 LUCENE_CHANGES.txt
+09/29/2015  05:34 AM            27,095 NOTICE.txt
+09/29/2015  05:34 AM             7,348 README.txt
+09/29/2015  05:49 AM    <DIR>          server
+               5 File(s)      1,141,265 bytes
+               9 Dir(s)  34,228,899,840 bytes free
+
+c:\solr-5.3.1>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 9403-5A4D
+
+ Directory of c:\solr-5.3.1
+
+09/29/2015  05:38 AM    <DIR>          .
+09/29/2015  05:38 AM    <DIR>          ..
+09/29/2015  09:06 AM    <DIR>          bin
+09/29/2015  05:34 AM           514,991 CHANGES.txt
+09/29/2015  05:37 AM    <DIR>          contrib
+09/29/2015  05:37 AM    <DIR>          dist
+09/29/2015  05:38 AM    <DIR>          docs
+09/29/2015  08:55 AM    <DIR>          example
+09/29/2015  05:34 AM            12,872 LICENSE.txt
+09/29/2015  05:38 AM    <DIR>          licenses
+09/29/2015  05:34 AM           578,959 LUCENE_CHANGES.txt
+09/29/2015  05:34 AM            27,095 NOTICE.txt
+09/29/2015  05:34 AM             7,348 README.txt
+09/29/2015  05:49 AM    <DIR>          server
+               5 File(s)      1,141,265 bytes
+               9 Dir(s)  34,228,867,072 bytes free
+
+c:\solr-5.3.1>cd example
+
+c:\solr-5.3.1\example>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 9403-5A4D
+
+ Directory of c:\solr-5.3.1\example
+
+09/29/2015  08:55 AM    <DIR>          .
+09/29/2015  08:55 AM    <DIR>          ..
+09/29/2015  08:57 AM    <DIR>          cloud
+09/29/2015  05:38 AM    <DIR>          example-DIH
+09/29/2015  05:38 AM    <DIR>          exampledocs
+09/29/2015  05:38 AM    <DIR>          files
+09/29/2015  05:38 AM    <DIR>          films
+09/29/2015  05:36 AM             3,035 README.txt
+09/29/2015  05:38 AM    <DIR>          resources
+               1 File(s)          3,035 bytes
+               8 Dir(s)  34,228,830,208 bytes free
+
+c:\solr-5.3.1\example>cd exampledocs
+
+c:\solr-5.3.1\example\exampledocs>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 9403-5A4D
+
+ Directory of c:\solr-5.3.1\example\exampledocs
+
+09/29/2015  05:38 AM    <DIR>          .
+09/29/2015  05:38 AM    <DIR>          ..
+09/29/2015  05:36 AM               970 books.csv
+09/29/2015  05:36 AM             1,199 books.json
+09/29/2015  05:36 AM             1,333 gb18030-example.xml
+09/29/2015  05:36 AM             2,301 hd.xml
+09/29/2015  05:36 AM             2,134 ipod_other.xml
+09/29/2015  05:36 AM             2,149 ipod_video.xml
+09/29/2015  05:36 AM             2,876 manufacturers.xml
+09/29/2015  05:36 AM             3,165 mem.xml
+09/29/2015  05:36 AM             2,221 money.xml
+09/29/2015  05:36 AM             1,454 monitor.xml
+09/29/2015  05:36 AM             1,435 monitor2.xml
+09/29/2015  05:36 AM             2,019 mp500.xml
+09/29/2015  05:36 AM            24,063 post.jar
+09/29/2015  05:36 AM               248 sample.html
+09/29/2015  05:36 AM             1,722 sd500.xml
+09/29/2015  05:36 AM            21,052 solr-word.pdf
+09/29/2015  05:36 AM             1,848 solr.xml
+09/29/2015  05:36 AM             3,715 test_utf8.sh
+09/29/2015  05:36 AM             1,877 utf8-example.xml
+09/29/2015  05:36 AM             2,759 vidcard.xml
+              20 File(s)         80,540 bytes
+               2 Dir(s)  34,228,809,728 bytes free
+
+c:\solr-5.3.1\example\exampledocs>java -Dc=core0 -jar post.jar solr-word.pdf
+SimplePostTool version 5.0.0
+Posting files to [base] url http://localhost:8983/solr/core0/update using content-type application/xml...
+POSTing file solr-word.pdf to [base]
+SimplePostTool: FATAL: Connection error (is Solr running at http://localhost:8983/solr/core0/update ?): java.net.ConnectException: Connection refused: connect
+
+c:\solr-5.3.1\example\exampledocs>java -Dc=core0 -jar post.jar solr-word.pdf -p 8984
+SimplePostTool version 5.0.0
+Posting files to [base] url http://localhost:8983/solr/core0/update using content-type application/xml...
+POSTing file solr-word.pdf to [base]
+SimplePostTool: FATAL: Connection error (is Solr running at http://localhost:8983/solr/core0/update ?): java.net.ConnectException: Connection refused: connect
+
+c:\solr-5.3.1\example\exampledocs>java -Dc=core1 -jar post.jar solr-word.pdf -p 8984
+SimplePostTool version 5.0.0
+Posting files to [base] url http://localhost:8983/solr/core1/update using content-type application/xml...
+POSTing file solr-word.pdf to [base]
+SimplePostTool: FATAL: Connection error (is Solr running at http://localhost:8983/solr/core1/update ?): java.net.ConnectException: Connection refused: connect
+
+c:\solr-5.3.1\example\exampledocs>java -Dc=core0 -jar post.jar solr-word.pdf -port 8984
+SimplePostTool version 5.0.0
+Posting files to [base] url http://localhost:8983/solr/core0/update using content-type application/xml...
+POSTing file solr-word.pdf to [base]
+SimplePostTool: FATAL: Connection error (is Solr running at http://localhost:8983/solr/core0/update ?): java.net.ConnectException: Connection refused: connect
+
+c:\solr-5.3.1\example\exampledocs>post.jar -h
+
+c:\solr-5.3.1\example\exampledocs>post.jar
+
+c:\solr-5.3.1\example\exampledocs>post
+'post' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\solr-5.3.1\example\exampledocs>java -jar post.jar *.xml
+SimplePostTool version 5.0.0
+SimplePostTool: FATAL: Specifying either url or core/collection is mandatory.
+Usage: java [SystemProperties] -jar post.jar [-h|-] [<file|folder|url|arg> [<file|folder|url|arg>...]]
+
+c:\solr-5.3.1\example\exampledocs>cd ..
+
+c:\solr-5.3.1\example>java -jar post.jar *.xml
+Error: Unable to access jarfile post.jar
+
+c:\solr-5.3.1\example>cd exampledocs
+
+c:\solr-5.3.1\example\exampledocs>post.jar -h
+
+c:\solr-5.3.1\example\exampledocs>java -jar post.jar -h
+SimplePostTool version 5.0.0
+Usage: java [SystemProperties] -jar post.jar [-h|-] [<file|folder|url|arg> [<file|folder|url|arg>...]]
+
+Supported System Properties and their defaults:
+  -Dc=<core/collection>
+  -Durl=<base Solr update URL> (overrides -Dc option if specified)
+  -Ddata=files|web|args|stdin (default=files)
+  -Dtype=<content-type> (default=application/xml)
+  -Dhost=<host> (default: localhost)
+  -Dport=<port> (default: 8983)
+  -Dauto=yes|no (default=no)
+  -Drecursive=yes|no|<depth> (default=0)
+  -Ddelay=<seconds> (default=0 for files, 10 for web)
+  -Dfiletypes=<type>[,<type>,...] (default=xml,json,csv,pdf,doc,docx,ppt,pptx,xls,xlsx,odt,odp,ods,ott,otp,ots,rtf,htm,html,txt,log)
+  -Dparams="<key>=<value>[&<key>=<value>...]" (values must be URL-encoded)
+  -Dcommit=yes|no (default=yes)
+  -Doptimize=yes|no (default=no)
+  -Dout=yes|no (default=no)
+
+This is a simple command line tool for POSTing raw data to a Solr port.
+NOTE: Specifying the url/core/collection name is mandatory.
+Data can be read from files specified as commandline args,
+URLs specified as args, as raw commandline arg strings or via STDIN.
+Examples:
+  java -Dc=gettingstarted -jar post.jar *.xml
+  java -Ddata=args -Dc=gettingstarted -jar post.jar '<delete><id>42</id></delete>'
+  java -Ddata=stdin -Dc=gettingstarted -jar post.jar < hd.xml
+  java -Ddata=web -Dc=gettingstarted -jar post.jar http://example.com/
+  java -Dtype=text/csv -Dc=gettingstarted -jar post.jar *.csv
+  java -Dtype=application/json -Dc=gettingstarted -jar post.jar *.json
+  java -Durl=http://localhost:8983/solr/techproducts/update/extract -Dparams=literal.id=pdf1 -jar post.jar solr-word.pdf
+  java -Dauto -Dc=gettingstarted -jar post.jar *
+  java -Dauto -Dc=gettingstarted -Drecursive -jar post.jar afolder
+  java -Dauto -Dc=gettingstarted -Dfiletypes=ppt,html -jar post.jar afolder
+The options controlled by System Properties include the Solr
+URL to POST to, the Content-Type of the data, whether a commit
+or optimize should be executed, and whether the response should
+be written to STDOUT. If auto=yes the tool will try to set type
+automatically from file name. When posting rich documents the
+file name will be propagated as "resource.name" and also used
+as "literal.id". You may override these or any other request parameter
+through the -Dparams property. To do a commit only, use "-" as argument.
+The web mode is a simple crawler following links within domain, default delay=10s.
+
+c:\solr-5.3.1\example\exampledocs>java -Dc=core0 -jar post.jar solr-word.pdf -Dp 8984
+SimplePostTool version 5.0.0
+Posting files to [base] url http://localhost:8983/solr/core0/update using content-type application/xml...
+POSTing file solr-word.pdf to [base]
+SimplePostTool: FATAL: Connection error (is Solr running at http://localhost:8983/solr/core0/update ?): java.net.ConnectException: Connection refused: connect
+
+c:\solr-5.3.1\example\exampledocs>java -Dc=core0 -jar post.jar solr-word.pdf -Durl http://localhost:8984/solr/core0/update
+SimplePostTool version 5.0.0
+Posting files to [base] url http://localhost:8983/solr/core0/update using content-type application/xml...
+POSTing file solr-word.pdf to [base]
+SimplePostTool: FATAL: Connection error (is Solr running at http://localhost:8983/solr/core0/update ?): java.net.ConnectException: Connection refused: connect
+
+c:\solr-5.3.1\example\exampledocs>java -Durl=http://localhost:7788/solr/update -Dc=core0 -jar post.jar solr-word.pdf
+SimplePostTool version 5.0.0
+Posting files to [base] url http://localhost:7788/solr/update using content-type application/xml...
+POSTing file solr-word.pdf to [base]
+SimplePostTool: FATAL: Connection error (is Solr running at http://localhost:7788/solr/update ?): java.net.ConnectException: Connection refused: connect
+
+c:\solr-5.3.1\example\exampledocs>java -Durl=http://localhost:8984/solr/core0/update -Dc=core0 -jar post.jar solr-word.pdf
+SimplePostTool version 5.0.0
+Posting files to [base] url http://localhost:8984/solr/core0/update using content-type application/xml...
+POSTing file solr-word.pdf to [base]
+SimplePostTool: WARNING: Solr returned an error #400 (Bad Request) for url: http://localhost:8984/solr/core0/update
+SimplePostTool: WARNING: Response: <?xml version="1.0" encoding="UTF-8"?>
+<response>
+<lst name="responseHeader"><int name="status">400</int><int name="QTime">4341</int></lst><lst name="error"><str name="msg">Invalid UTF-8 middle byte 0xe5 (at char #10, byte #-1)</str><int name="code">400</int></lst>
+</response>
+SimplePostTool: WARNING: IOException while reading response: java.io.IOException: Server returned HTTP response code: 400 for URL: http://localhost:8984/solr/core0/update
+1 files indexed.
+COMMITting Solr index changes to http://localhost:8984/solr/core0/update...
+Time spent: 0:00:13.500
+
+c:\solr-5.3.1\example\exampledocs>java -Dc=core0 -Durl=http://localhost:8984/solr/core0/update -jar post.jar solr-word.pdf
+SimplePostTool version 5.0.0
+Posting files to [base] url http://localhost:8984/solr/core0/update using content-type application/xml...
+POSTing file solr-word.pdf to [base]
+SimplePostTool: WARNING: Solr returned an error #400 (Bad Request) for url: http://localhost:8984/solr/core0/update
+SimplePostTool: WARNING: Response: <?xml version="1.0" encoding="UTF-8"?>
+<response>
+<lst name="responseHeader"><int name="status">400</int><int name="QTime">275</int></lst><lst name="error"><str name="msg">Invalid UTF-8 middle byte 0xe5 (at char #10, byte #-1)</str><int name="code">400</int></lst>
+</response>
+SimplePostTool: WARNING: IOException while reading response: java.io.IOException: Server returned HTTP response code: 400 for URL: http://localhost:8984/solr/core0/update
+1 files indexed.
+COMMITting Solr index changes to http://localhost:8984/solr/core0/update...
+Time spent: 0:00:00.763
+
+c:\solr-5.3.1\example\exampledocs>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 9403-5A4D
+
+ Directory of c:\solr-5.3.1\example\exampledocs
+
+09/29/2015  05:38 AM    <DIR>          .
+09/29/2015  05:38 AM    <DIR>          ..
+09/29/2015  05:36 AM               970 books.csv
+09/29/2015  05:36 AM             1,199 books.json
+09/29/2015  05:36 AM             1,333 gb18030-example.xml
+09/29/2015  05:36 AM             2,301 hd.xml
+09/29/2015  05:36 AM             2,134 ipod_other.xml
+09/29/2015  05:36 AM             2,149 ipod_video.xml
+09/29/2015  05:36 AM             2,876 manufacturers.xml
+09/29/2015  05:36 AM             3,165 mem.xml
+09/29/2015  05:36 AM             2,221 money.xml
+09/29/2015  05:36 AM             1,454 monitor.xml
+09/29/2015  05:36 AM             1,435 monitor2.xml
+09/29/2015  05:36 AM             2,019 mp500.xml
+09/29/2015  05:36 AM            24,063 post.jar
+09/29/2015  05:36 AM               248 sample.html
+09/29/2015  05:36 AM             1,722 sd500.xml
+09/29/2015  05:36 AM            21,052 solr-word.pdf
+09/29/2015  05:36 AM             1,848 solr.xml
+09/29/2015  05:36 AM             3,715 test_utf8.sh
+09/29/2015  05:36 AM             1,877 utf8-example.xml
+09/29/2015  05:36 AM             2,759 vidcard.xml
+              20 File(s)         80,540 bytes
+               2 Dir(s)  34,222,923,776 bytes free
+
+c:\solr-5.3.1\example\exampledocs>java -Dc=core0 -Durl=http://localhost:8984/solr/core0/update -jar post.jar solr.xml
+SimplePostTool version 5.0.0
+Posting files to [base] url http://localhost:8984/solr/core0/update using content-type application/xml...
+POSTing file solr.xml to [base]
+1 files indexed.
+COMMITting Solr index changes to http://localhost:8984/solr/core0/update...
+Time spent: 0:00:12.623
+
+c:\solr-5.3.1\example\exampledocs>java -Dc=core0 -Durl=http://localhost:8984/solr/core0_shard1_replica1 -jar post.jar solr-word.pdf
+SimplePostTool version 5.0.0
+Posting files to [base] url http://localhost:8984/solr/core0_shard1_replica1 using content-type application/xml...
+POSTing file solr-word.pdf to [base]
+SimplePostTool: WARNING: Solr returned an error #404 (Not Found) for url: http://localhost:8984/solr/core0_shard1_replica1
+SimplePostTool: WARNING: Response: <html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<title>Error 404 Not Found</title>
+</head>
+<body><h2>HTTP ERROR 404</h2>
+<p>Problem accessing /solr/core0_shard1_replica1. Reason:
+<pre>    Not Found</pre></p><hr><i><small>Powered by Jetty://</small></i><hr/>
+
+</body>
+</html>
+SimplePostTool: WARNING: IOException while reading response: java.io.FileNotFoundException: http://localhost:8984/solr/core0_shard1_replica1
+1 files indexed.
+COMMITting Solr index changes to http://localhost:8984/solr/core0_shard1_replica1...
+SimplePostTool: WARNING: Solr returned an error #404 (Not Found) for url: http://localhost:8984/solr/core0_shard1_replica1?commit=true
+SimplePostTool: WARNING: Response: <html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<title>Error 404 Not Found</title>
+</head>
+<body><h2>HTTP ERROR 404</h2>
+<p>Problem accessing /solr/core0_shard1_replica1. Reason:
+<pre>    Not Found</pre></p><hr><i><small>Powered by Jetty://</small></i><hr/>
+
+</body>
+</html>
+Time spent: 0:00:01.767
+
+c:\solr-5.3.1\example\exampledocs>java -Dc=core0 -Durl=http://localhost:8984/solr/core0_shard1_replica1/update -jar post.jar solr-word.pdf
+SimplePostTool version 5.0.0
+Posting files to [base] url http://localhost:8984/solr/core0_shard1_replica1/update using content-type application/xml...
+POSTing file solr-word.pdf to [base]
+SimplePostTool: WARNING: Solr returned an error #400 (Bad Request) for url: http://localhost:8984/solr/core0_shard1_replica1/update
+SimplePostTool: WARNING: Response: <?xml version="1.0" encoding="UTF-8"?>
+<response>
+<lst name="responseHeader"><int name="status">400</int><int name="QTime">1172</int></lst><lst name="error"><str name="msg">Invalid UTF-8 middle byte 0xe5 (at char #10, byte #-1)</str><int name="code">400</int></lst>
+</response>
+SimplePostTool: WARNING: IOException while reading response: java.io.IOException: Server returned HTTP response code: 400 for URL: http://localhost:8984/solr/core0_shard1_replica1/update
+1 files indexed.
+COMMITting Solr index changes to http://localhost:8984/solr/core0_shard1_replica1/update...
+Time spent: 0:00:06.010
+
+c:\solr-5.3.1\example\exampledocs>java -Dc=core0 -Durl=http://localhost:8984/solr/core0_shard1_replica1/update -jar post.jar *.xml
+SimplePostTool version 5.0.0
+Posting files to [base] url http://localhost:8984/solr/core0_shard1_replica1/update using content-type application/xml...
+POSTing file gb18030-example.xml to [base]
+POSTing file hd.xml to [base]
+POSTing file ipod_other.xml to [base]
+POSTing file ipod_video.xml to [base]
+POSTing file manufacturers.xml to [base]
+POSTing file mem.xml to [base]
+POSTing file money.xml to [base]
+POSTing file monitor.xml to [base]
+POSTing file monitor2.xml to [base]
+POSTing file mp500.xml to [base]
+POSTing file sd500.xml to [base]
+POSTing file solr.xml to [base]
+POSTing file utf8-example.xml to [base]
+POSTing file vidcard.xml to [base]
+14 files indexed.
+COMMITting Solr index changes to http://localhost:8984/solr/core0_shard1_replica1/update...
+Time spent: 0:00:28.380
+
+c:\solr-5.3.1\example\exampledocs>
+c:\solr-5.3.1\example\exampledocs>java -Dc=core0 -Durl=http://localhost:8984/solr/core0_shard1_replica1/update -jar post.jar Cus_Jrny.xml
+SimplePostTool version 5.0.0
+Posting files to [base] url http://localhost:8984/solr/core0_shard1_replica1/update using content-type application/xml...
+POSTing file Cus_Jrny.xml to [base]
+1 files indexed.
+COMMITting Solr index changes to http://localhost:8984/solr/core0_shard1_replica1/update...
+Time spent: 0:00:16.281
+
+c:\solr-5.3.1\example\exampledocs>java -Dc=core0 -Durl=http://localhost:8984/solr/core0_shard1_replica1/update -jar post.jar Cus_Jrny.xml
+SimplePostTool version 5.0.0
+Posting files to [base] url http://localhost:8984/solr/core0_shard1_replica1/update using content-type application/xml...
+POSTing file Cus_Jrny.xml to [base]
+1 files indexed.
+COMMITting Solr index changes to http://localhost:8984/solr/core0_shard1_replica1/update...
+Time spent: 0:00:05.379
+
+c:\solr-5.3.1\example\exampledocs>cd ..
+
+c:\solr-5.3.1\example>cd ..
+
+c:\solr-5.3.1>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 9403-5A4D
+
+ Directory of c:\solr-5.3.1
+
+09/29/2015  05:38 AM    <DIR>          .
+09/29/2015  05:38 AM    <DIR>          ..
+09/29/2015  09:06 AM    <DIR>          bin
+09/29/2015  05:34 AM           514,991 CHANGES.txt
+09/29/2015  05:37 AM    <DIR>          contrib
+09/29/2015  05:37 AM    <DIR>          dist
+09/29/2015  05:38 AM    <DIR>          docs
+09/29/2015  08:55 AM    <DIR>          example
+09/29/2015  05:34 AM            12,872 LICENSE.txt
+09/29/2015  05:38 AM    <DIR>          licenses
+09/29/2015  05:34 AM           578,959 LUCENE_CHANGES.txt
+09/29/2015  05:34 AM            27,095 NOTICE.txt
+09/29/2015  05:34 AM             7,348 README.txt
+09/29/2015  05:49 AM    <DIR>          server
+               5 File(s)      1,141,265 bytes
+               9 Dir(s)  33,781,473,280 bytes free
+
+c:\solr-5.3.1>cd bin
+
+c:\solr-5.3.1\bin>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 9403-5A4D
+
+ Directory of c:\solr-5.3.1\bin
+
+09/29/2015  09:06 AM    <DIR>          .
+09/29/2015  09:06 AM    <DIR>          ..
+09/29/2015  05:37 AM    <DIR>          init.d
+09/29/2015  05:36 AM             8,293 install_solr_service.sh
+09/29/2015  05:36 AM             1,255 oom_solr.sh
+09/29/2015  05:36 AM             7,754 post
+09/29/2015  05:36 AM            47,759 solr
+09/29/2015  08:57 AM                 6 solr-7574.port
+09/29/2015  05:49 AM                 6 solr-8983.port
+09/29/2015  08:57 AM                 6 solr-8984.port
+09/29/2015  05:36 AM            42,654 solr.cmd
+09/29/2015  05:36 AM             4,417 solr.in.cmd
+09/29/2015  05:36 AM             4,892 solr.in.sh
+              10 File(s)        117,042 bytes
+               3 Dir(s)  33,781,334,016 bytes free
+
+c:\solr-5.3.1\bin>solr.cmd stop
+
+ERROR: Must specify the port when trying to stop Solr, or use -all to stop all running nodes on this host.
+
+
+c:\solr-5.3.1\bin>solr.cmd stop 9894
+
+Invalid command-line option: 9894
+
+
+Usage: solr stop [-k key] [-p port]
+
+ -k key      Stop key; default is solrrocks
+
+ -p port     Specify the port the Solr HTTP listener is bound to
+
+ -all        Find and stop all running Solr servers on this host
+
+
+c:\solr-5.3.1\bin>solr.cmd stop -p 9894
+No Solr found running on port 9894
+
+c:\solr-5.3.1\bin>solr.cmd stop -p 8984
+Stopping Solr process 11928 running on port 8984
+
+Waiting for 0 seconds, press a key to continue ...
+
+c:\solr-5.3.1\bin>solr.cmd start -p 8984
+Backing up c:\solr-5.3.1\server\logs\solr.log
+        1 file(s) moved.
+Backing up c:\solr-5.3.1\server\logs\solr_gc.log
+        1 file(s) moved.
+WARNING: Java version 1.7.0_51 has known bugs with Lucene and requires the -XX:-UseSuperWord flag. Please consider upgrading your JVM.
+Waiting up to 30 to see Solr running on port 8984
+Started Solr server on port 8984. Happy searching!
+
+c:\solr-5.3.1\bin>solr.cmd stop -p 8984
+Stopping Solr process 3300 running on port 8984
+
+Waiting for 0 seconds, press a key to continue ...
+
+c:\solr-5.3.1\bin>solr.cmd -e cloud -p 8984
+
+Welcome to the SolrCloud example!
+
+This interactive session will help you launch a SolrCloud cluster on your local workstation.
+To begin, how many Solr nodes would you like to run in your local cluster? (specify 1-4 nodes) [2]:
+^Z
+
+ERROR: No line found
+
+
+c:\solr-5.3.1\bin>solr.cmd -e cloud
+
+Welcome to the SolrCloud example!
+
+This interactive session will help you launch a SolrCloud cluster on your local workstation.
+To begin, how many Solr nodes would you like to run in your local cluster? (specify 1-4 nodes) [2]:
+1
+Ok, let's start up 1 Solr nodes for your example SolrCloud cluster.
+Please enter the port for node1 [8983]:
+
+Solr home directory c:\solr-5.3.1\example\cloud\node1\solr already exists.
+
+Starting up Solr on port 8983 using command:
+c:\solr-5.3.1\bin\solr.cmd start -cloud -p 8983 -s "c:\solr-5.3.1\example\cloud\node1\solr"
+
+Backing up c:\solr-5.3.1\example\cloud\node1\solr\..\logs\solr.log
+        1 file(s) moved.
+Backing up c:\solr-5.3.1\example\cloud\node1\solr\..\logs\solr_gc.log
+        1 file(s) moved.
+WARNING: Java version 1.7.0_51 has known bugs with Lucene and requires the -XX:-UseSuperWord flag. Please consider upgrading your JVM.
+Waiting up to 30 to see Solr running on port 8983
+Started Solr server on port 8983. Happy searching!
+
+Now let's create a new collection for indexing documents in your 1-node cluster.
+Please provide a name for your new collection: [gettingstarted]
+logstash_logs
+How many shards would you like to split logstash_logs into? [2]
+2
+How many replicas per shard would you like to create? [2]
+2
+Please choose a configuration for the logstash_logs collection, available options are:
+basic_configs, data_driven_schema_configs, or sample_techproducts_configs [data_driven_schema_configs]
+
+
+Connecting to ZooKeeper at localhost:9983 ...
+Uploading c:\solr-5.3.1\server\solr\configsets\data_driven_schema_configs\conf for config logstash_logs to ZooKeeper at localhost:9983
+
+Creating new collection 'logstash_logs' using command:
+http://localhost:8983/solr/admin/collections?action=CREATE&name=logstash_logs&numShards=2&replicationFactor=2&maxShardsPerNode=4&collection.configName=logstash_logs
+
+{
+  "responseHeader":{
+    "status":0,
+    "QTime":7322},
+  "success":{"":{
+      "responseHeader":{
+        "status":0,
+        "QTime":6838},
+      "core":"logstash_logs_shard1_replica2"}}}
+
+Enabling auto soft-commits with maxTime 3 secs using the Config API
+
+POSTing request to Config API: http://localhost:8983/solr/logstash_logs/config
+{"set-property":{"updateHandler.autoSoftCommit.maxTime":"3000"}}
+Successfully set-property updateHandler.autoSoftCommit.maxTime to 3000
+
+
+SolrCloud example running, please visit: http://localhost:8983/solr
+
+
+c:\solr-5.3.1\bin>java -Dc=core0 -Durl=http://localhost:8983/solr/logstash_logs/update -jar post.jar Cus_Jrny.xml
+Error: Unable to access jarfile post.jar
+
+c:\solr-5.3.1\bin>cd ..
+
+c:\solr-5.3.1>cd example
+
+c:\solr-5.3.1\example>cd exampledocs
+
+c:\solr-5.3.1\example\exampledocs>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 9403-5A4D
+
+ Directory of c:\solr-5.3.1\example\exampledocs
+
+10/01/2015  01:40 AM    <DIR>          .
+10/01/2015  01:40 AM    <DIR>          ..
+09/29/2015  05:36 AM               970 books.csv
+09/29/2015  05:36 AM             1,199 books.json
+10/01/2015  01:44 AM             1,103 Cus_Jrny.xml
+09/29/2015  05:36 AM             1,333 gb18030-example.xml
+09/29/2015  05:36 AM             2,301 hd.xml
+09/29/2015  05:36 AM             2,134 ipod_other.xml
+09/29/2015  05:36 AM             2,149 ipod_video.xml
+09/29/2015  05:36 AM             2,876 manufacturers.xml
+09/29/2015  05:36 AM             3,165 mem.xml
+09/29/2015  05:36 AM             2,221 money.xml
+09/29/2015  05:36 AM             1,454 monitor.xml
+09/29/2015  05:36 AM             1,435 monitor2.xml
+09/29/2015  05:36 AM             2,019 mp500.xml
+09/29/2015  05:36 AM            24,063 post.jar
+09/29/2015  05:36 AM               248 sample.html
+09/29/2015  05:36 AM             1,722 sd500.xml
+09/29/2015  05:36 AM            21,052 solr-word.pdf
+09/29/2015  05:36 AM             1,848 solr.xml
+09/29/2015  05:36 AM             3,715 test_utf8.sh
+09/29/2015  05:36 AM             1,877 utf8-example.xml
+09/29/2015  05:36 AM             2,759 vidcard.xml
+              21 File(s)         81,643 bytes
+               2 Dir(s)  33,706,602,496 bytes free
+
+c:\solr-5.3.1\example\exampledocs>java -Dc=core0 -Durl=http://localhost:8983/solr/logstash_logs/update -jar post.jar Cus_Jrny.xml
+SimplePostTool version 5.0.0
+Posting files to [base] url http://localhost:8983/solr/logstash_logs/update using content-type application/xml...
+POSTing file Cus_Jrny.xml to [base]
+1 files indexed.
+COMMITting Solr index changes to http://localhost:8983/solr/logstash_logs/update...
+Time spent: 0:00:07.234
+
+c:\solr-5.3.1\example\exampledocs>cd..
+
+c:\solr-5.3.1\example>cd..
+
+c:\solr-5.3.1>cd bin
+
+c:\solr-5.3.1\bin>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 9403-5A4D
+
+ Directory of c:\solr-5.3.1\bin
+
+10/01/2015  02:04 AM    <DIR>          .
+10/01/2015  02:04 AM    <DIR>          ..
+09/29/2015  05:37 AM    <DIR>          init.d
+09/29/2015  05:36 AM             8,293 install_solr_service.sh
+09/29/2015  05:36 AM             1,255 oom_solr.sh
+09/29/2015  05:36 AM             7,754 post
+09/29/2015  05:36 AM            47,759 solr
+09/29/2015  08:57 AM                 6 solr-7574.port
+10/01/2015  02:04 AM                 6 solr-8983.port
+09/29/2015  05:36 AM            42,654 solr.cmd
+09/29/2015  05:36 AM             4,417 solr.in.cmd
+09/29/2015  05:36 AM             4,892 solr.in.sh
+               9 File(s)        117,036 bytes
+               3 Dir(s)  33,621,839,872 bytes free
+
+c:\solr-5.3.1\bin>solr.cmd -e cloud
+
+Welcome to the SolrCloud example!
+
+This interactive session will help you launch a SolrCloud cluster on your local workstation.
+To begin, how many Solr nodes would you like to run in your local cluster? (specify 1-4 nodes) [2]:
+1
+Ok, let's start up 1 Solr nodes for your example SolrCloud cluster.
+Please enter the port for node1 [8983]:
+
+Oops! Looks like port 8983 is already being used by another process. Please choose a different port.
+
+Oops! Looks like port 8983 is already being used by another process. Please choose a different port.
+^Z
+
+ERROR: No line found
+
+
+c:\solr-5.3.1\bin>cd ..
+
+c:\solr-5.3.1>cd example
+
+c:\solr-5.3.1\example>cd exampledocs
+
+c:\solr-5.3.1\example\exampledocs>java -Dc=core0 -Durl=http://localhost:8983/solr/logstash_logs/update -jar post.jar *.xml
+SimplePostTool version 5.0.0
+Posting files to [base] url http://localhost:8983/solr/logstash_logs/update using content-type application/xml...
+POSTing file Cus_Jrny.xml to [base]
+POSTing file gb18030-example.xml to [base]
+POSTing file hd.xml to [base]
+POSTing file ipod_other.xml to [base]
+POSTing file ipod_video.xml to [base]
+POSTing file manufacturers.xml to [base]
+POSTing file mem.xml to [base]
+POSTing file money.xml to [base]
+POSTing file monitor.xml to [base]
+POSTing file monitor2.xml to [base]
+POSTing file mp500.xml to [base]
+POSTing file New_Cust.xml to [base]
+POSTing file sd500.xml to [base]
+POSTing file solr.xml to [base]
+POSTing file utf8-example.xml to [base]
+POSTing file vidcard.xml to [base]
+16 files indexed.
+COMMITting Solr index changes to http://localhost:8983/solr/logstash_logs/update...
+Time spent: 0:00:33.146
+
+c:\solr-5.3.1\example\exampledocs>cd ..
+
+c:\solr-5.3.1\example>cd ..
+
+c:\solr-5.3.1>cd bin
+
+c:\solr-5.3.1\bin>solr.cmd stop
+
+ERROR: Must specify the port when trying to stop Solr, or use -all to stop all running nodes on this host.
+
+
+c:\solr-5.3.1\bin>solr.cmd stop -p 8983
+Stopping Solr process 1740 running on port 8983
+
+Waiting for 0 seconds, press a key to continue ...
+
+c:\solr-5.3.1\bin>solr.cmd -e cloud
+
+Welcome to the SolrCloud example!
+
+This interactive session will help you launch a SolrCloud cluster on your local workstation.
+To begin, how many Solr nodes would you like to run in your local cluster? (specify 1-4 nodes) [2]:
+4
+Ok, let's start up 4 Solr nodes for your example SolrCloud cluster.
+Please enter the port for node1 [8983]:
+
+Please enter the port for node2 [7574]:
+
+Oops! Looks like port 7574 is already being used by another process. Please choose a different port.
+^Z
+
+ERROR: No line found
+
+
+c:\solr-5.3.1\bin>solr.cmd stop -p 7574
+Stopping Solr process 11136 running on port 7574
+
+Waiting for 1 seconds, press a key to continue ...
+
+c:\solr-5.3.1\bin>solr.cmd -e cloud
+
+Welcome to the SolrCloud example!
+
+This interactive session will help you launch a SolrCloud cluster on your local workstation.
+To begin, how many Solr nodes would you like to run in your local cluster? (specify 1-4 nodes) [2]:
+4
+Ok, let's start up 4 Solr nodes for your example SolrCloud cluster.
+Please enter the port for node1 [8983]:
+
+Please enter the port for node2 [7574]:
+
+Please enter the port for node3 [8984]:
+
+Please enter the port for node4 [7575]:
+
+Solr home directory c:\solr-5.3.1\example\cloud\node1\solr already exists.
+c:\solr-5.3.1\example\cloud\node2 already exists.
+Cloning c:\solr-5.3.1\example\cloud\node1 into
+   c:\solr-5.3.1\example\cloud\node3
+Cloning c:\solr-5.3.1\example\cloud\node1 into
+   c:\solr-5.3.1\example\cloud\node4
+
+Starting up Solr on port 8983 using command:
+c:\solr-5.3.1\bin\solr.cmd start -cloud -p 8983 -s "c:\solr-5.3.1\example\cloud\node1\solr"
+
+Backing up c:\solr-5.3.1\example\cloud\node1\solr\..\logs\solr.log
+        1 file(s) moved.
+Backing up c:\solr-5.3.1\example\cloud\node1\solr\..\logs\solr_gc.log
+        1 file(s) moved.
+WARNING: Java version 1.7.0_51 has known bugs with Lucene and requires the -XX:-UseSuperWord flag. Please consider upgrading your JVM.
+Waiting up to 30 to see Solr running on port 8983
+Started Solr server on port 8983. Happy searching!
+
+Starting up Solr on port 7574 using command:
+c:\solr-5.3.1\bin\solr.cmd start -cloud -p 7574 -s "c:\solr-5.3.1\example\cloud\node2\solr" -z localhost:9983
+
+Backing up c:\solr-5.3.1\example\cloud\node2\solr\..\logs\solr.log
+The process cannot access the file because it is being used by another process.
+        0 file(s) moved.
+Backing up c:\solr-5.3.1\example\cloud\node2\solr\..\logs\solr_gc.log
+The process cannot access the file because it is being used by another process.
+        0 file(s) moved.
+WARNING: Java version 1.7.0_51 has known bugs with Lucene and requires the -XX:-UseSuperWord flag. Please consider upgrading your JVM.
+The process cannot access the file because it is being used by another process.
+Waiting up to 30 to see Solr running on port 7574
+
+ERROR: Solr at http://localhost:7574/solr did not come online within 30 seconds!
+
+
+ERROR: Did not see Solr at http://localhost:7574/solr come online within 30
+
+
+c:\solr-5.3.1\bin>solr.cmd stop -p 8983
+Stopping Solr process 6064 running on port 8983
+
+Waiting for 3 seconds, press a key to continue ...
+
+c:\solr-5.3.1\bin>solr.cmd stop -p 7574
+No Solr found running on port 7574
+
+c:\solr-5.3.1\bin>solr.cmd -e cloud
+
+Welcome to the SolrCloud example!
+
+This interactive session will help you launch a SolrCloud cluster on your local workstation.
+To begin, how many Solr nodes would you like to run in your local cluster? (specify 1-4 nodes) [2]:
+1
+Ok, let's start up 1 Solr nodes for your example SolrCloud cluster.
+Please enter the port for node1 [8983]:
+
+Solr home directory c:\solr-5.3.1\example\cloud\node1\solr already exists.
+
+Starting up Solr on port 8983 using command:
+c:\solr-5.3.1\bin\solr.cmd start -cloud -p 8983 -s "c:\solr-5.3.1\example\cloud\node1\solr"
+
+Backing up c:\solr-5.3.1\example\cloud\node1\solr\..\logs\solr.log
+        1 file(s) moved.
+Backing up c:\solr-5.3.1\example\cloud\node1\solr\..\logs\solr_gc.log
+        1 file(s) moved.
+WARNING: Java version 1.7.0_51 has known bugs with Lucene and requires the -XX:-UseSuperWord flag. Please consider upgrading your JVM.
+Waiting up to 30 to see Solr running on port 8983
+Started Solr server on port 8983. Happy searching!
+
+Now let's create a new collection for indexing documents in your 1-node cluster.
+Please provide a name for your new collection: [gettingstarted]
+newcoll
+How many shards would you like to split newcoll into? [2]
+1
+How many replicas per shard would you like to create? [2]
+1
+Please choose a configuration for the newcoll collection, available options are:
+basic_configs, data_driven_schema_configs, or sample_techproducts_configs [data_driven_schema_configs]
+
+
+Connecting to ZooKeeper at localhost:9983 ...
+Uploading c:\solr-5.3.1\server\solr\configsets\data_driven_schema_configs\conf for config newcoll to ZooKeeper at localhost:9983
+
+Creating new collection 'newcoll' using command:
+http://localhost:8983/solr/admin/collections?action=CREATE&name=newcoll&numShards=1&replicationFactor=1&maxShardsPerNode=1&collection.configName=newcoll
+
+{
+  "responseHeader":{
+    "status":0,
+    "QTime":3266},
+  "success":{"":{
+      "responseHeader":{
+        "status":0,
+        "QTime":2972},
+      "core":"newcoll_shard1_replica1"}}}
+
+Enabling auto soft-commits with maxTime 3 secs using the Config API
+
+POSTing request to Config API: http://localhost:8983/solr/newcoll/config
+{"set-property":{"updateHandler.autoSoftCommit.maxTime":"3000"}}
+Successfully set-property updateHandler.autoSoftCommit.maxTime to 3000
+
+
+SolrCloud example running, please visit: http://localhost:8983/solr
+
+
+c:\solr-5.3.1\bin>java -Dc=core0 -Durl=http://localhost:8983/solr/newcoll/update -jar post.jar New_Cust.xml
+Error: Unable to access jarfile post.jar
+
+c:\solr-5.3.1\bin>cd ..
+
+c:\solr-5.3.1>cd example
+
+c:\solr-5.3.1\example>cd exampledocs
+
+c:\solr-5.3.1\example\exampledocs>java -Dc=core0 -Durl=http://localhost:8983/solr/newcoll/update -jar post.jar New_Cust.xml
+SimplePostTool version 5.0.0
+Posting files to [base] url http://localhost:8983/solr/newcoll/update using content-type application/xml...
+POSTing file New_Cust.xml to [base]
+1 files indexed.
+COMMITting Solr index changes to http://localhost:8983/solr/newcoll/update...
+Time spent: 0:00:02.109
+
+c:\solr-5.3.1\example\exampledocs>java -Dc=core0 -Durl=http://localhost:8983/solr/newcoll/update -jar post.jar New_Cust.xml
+SimplePostTool version 5.0.0
+Posting files to [base] url http://localhost:8983/solr/newcoll/update using content-type application/xml...
+POSTing file New_Cust.xml to [base]
+1 files indexed.
+COMMITting Solr index changes to http://localhost:8983/solr/newcoll/update...
+Time spent: 0:00:02.389
+
+c:\solr-5.3.1\example\exampledocs>java -Dc=core0 -Durl=http://localhost:8983/solr/newcoll/update -jar post.jar New_Cust.xml
+SimplePostTool version 5.0.0
+Posting files to [base] url http://localhost:8983/solr/newcoll/update using content-type application/xml...
+POSTing file New_Cust.xml to [base]
+1 files indexed.
+COMMITting Solr index changes to http://localhost:8983/solr/newcoll/update...
+Time spent: 0:00:01.157
+
+c:\solr-5.3.1\example\exampledocs>java -Dc=core0 -Durl=http://localhost:8983/solr/newcoll/update -jar post.jar New_Cust.xml
+SimplePostTool version 5.0.0
+Posting files to [base] url http://localhost:8983/solr/newcoll/update using content-type application/xml...
+POSTing file New_Cust.xml to [base]
+1 files indexed.
+COMMITting Solr index changes to http://localhost:8983/solr/newcoll/update...
+Time spent: 0:00:04.402
+
+c:\solr-5.3.1\example\exampledocs>java -Dc=core0 -Durl=http://localhost:8983/solr/newcoll/update -jar post.jar New_Cust.xml
+SimplePostTool version 5.0.0
+Posting files to [base] url http://localhost:8983/solr/newcoll/update using content-type application/xml...
+POSTing file New_Cust.xml to [base]
+1 files indexed.
+COMMITting Solr index changes to http://localhost:8983/solr/newcoll/update...
+Time spent: 0:00:00.763
+
+c:\solr-5.3.1\example\exampledocs>java -Dc=core0 -Durl=http://localhost:8983/solr/newcoll/update -jar post.jar New_Cust.xml
